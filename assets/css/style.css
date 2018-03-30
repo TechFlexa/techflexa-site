@@ -1,0 +1,238 @@
+.button.is-primary{
+	background-color: #FF2525;
+}
+.button.is-primary.is-outlined{
+	border-color: #FF2525;
+	color: #FF2525
+}
+.button.is-primary.is-outlined:hover{
+	background-color: #FFE53B;
+	background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+	border: 1px solid white;
+
+}
+
+.navbar-brand > .navbar-item{
+	color: black;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+}
+@media screen and (min-width:1024px) {
+	.navbar-item{
+		color: white
+	}
+	.navbar-item:hover{
+		background-color: none
+	}
+}
+#landing-hero{
+	background-color: #EEF3F7;
+	background: url("../img/backgrounds/hero.svg") no-repeat top right; 
+  	background-size: contain;
+}
+
+#landing-hero .hero-body h1.title{
+width: 325px;
+padding-bottom: 20px;
+
+margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+#landing-hero .hero-body p{
+	width: 375px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+#landing-hero .hero-body h1.title:after{
+	display: block;
+    margin-top: 10px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: black;
+    width: 80px;
+}
+#landing-hero .hero-body .hero-image-right{
+	position: absolute;
+	right: 10%;
+	top: 20%;
+}
+#landing-hero .hero-body .hero-image-right img{
+	height: 300px;
+	width: 300px;
+	background-color: none;
+	border-radius: 50%;
+	padding: 5px;
+	
+}
+
+/** developers part **/
+#developers{
+	background-color: none;
+	
+}
+#developers .hero-body h1.title{
+width: 350px;
+padding-bottom: 20px;
+
+margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+#developers .hero-body p{
+	width: 600px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+#developers .hero-body p strong{
+	color: black;
+	font-family: 'Comfortaa', cursive;
+}
+#developers .hero-body h1.title:after{
+	display: block;
+    margin-top: 10px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: black;
+    width: 80px;
+}
+#developers .hero-body{
+	position: relative;
+}
+#developers .hero-body .hero-image-right{
+	position: absolute;
+	right: 10%;
+	top: 15%;
+}
+#developers .hero-body .hero-image-right img{
+	height: 400px;
+	width: 400px;
+}
+
+/** developers part **/
+#developers{
+	background-color: none;
+	
+}
+#developers .hero-body h1.title{
+width: 350px;
+padding-bottom: 20px;
+
+margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+#developers .hero-body p{
+	width: 600px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+#developers .hero-body p strong{
+	color: black;
+	font-family: 'Comfortaa', cursive;
+}
+#developers .hero-body h1.title:after{
+	display: block;
+    margin-top: 10px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: black;
+    width: 80px;
+}
+#developers .hero-body{
+	position: relative;
+}
+#developers .hero-body .hero-image-right{
+	position: absolute;
+	right: 10%;
+	top: 15%;
+}
+#developers .hero-body .hero-image-right img{
+	height: 400px;
+	width: 400px;
+}
+
+/** clients part **/
+#clients{
+	background-color: none;
+	
+}
+#clients .hero-body h1.title{
+width: 350px;
+padding-bottom: 20px;
+
+margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+#clients .hero-body p{
+	width: 600px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+#clients .hero-body p strong{
+	color: black;
+	font-family: 'Comfortaa', cursive;
+}
+#clients .hero-body h1.title:after{
+	display: block;
+    margin-top: 10px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: black;
+    width: 80px;
+}
+#clients .hero-body{
+	position: relative;
+}
+#clients .hero-body .hero-image-right{
+	position: absolute;
+	right: 10%;
+	top: 15%;
+}
+#clients .hero-body .hero-image-right img{
+	height: 400px;
+	width: 400px;
+}
+
+/*Blog Linkinh*/
+#blog-link{
+	background-color: #FFE53B;
+	background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+}
+/* Contact Us */
+#contacts .hero-body h1.title{
+width: 325px;
+padding-bottom: 20px;
+
+margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+
+#contacts .hero-body h1.title:after{
+	display: block;
+    margin-top: 10px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: black;
+    width: 80px;
+}
+@media screen and (max-width:1024px) {
+	#landing-hero .hero-body h1.title,#landing-hero .hero-body p,#developers .hero-body h1.title,#developers .hero-body p,#clients .hero-body h1.title,#clients .hero-body p{
+		width: auto;
+	}
+	#landing-hero{
+		background: none;
+	}
+	.hero-image-right{
+		display: none
+	}
+}
+.image.is-rounded img{
+	border-radius: 50%
+}
+/** Animation Extension **/
+.anim-hide {opacity: 0;}
+.anim-hide.js-animated {opacity: 1;}
